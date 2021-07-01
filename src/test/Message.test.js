@@ -11,7 +11,7 @@ describe('Class Message', () => {
       expect(Message.generateRandomNumber()).to.be.number()
     })
 
-    it('should be above 0', () => {
+    it('should be above or equal 0', () => {
       expect(Message.generateRandomNumber()).to.be.above(-1)
     })
 
