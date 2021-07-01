@@ -5,4 +5,5 @@
 3) open folder "frontend" inside root folder with commandline and write "npm i"
 4) when node modules on root was installed, write npm start on root folder
 5) when node modules on "frontend" was installed, write "npm start" on "frontend" folder
-6) * to run tests open root folder with commandline and write "npm test"
+_______________________________________________________________________
+6) to run tests open root folder with commandline and write "npm test"
