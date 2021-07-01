@@ -85,7 +85,7 @@ describe('Class Message', () => {
       expect(data).to.be.an('object')
     })
 
-    it('should has a "time" and "point" properties, when using param "latest-point"', () => {
+    it('should has a "time" and "point" properties inside "data", when using param "latest-point"', () => {
       const data = JSON.parse(Message.createResponse(latestPoint)).data
 
       expect(data).to.have.property('time')
